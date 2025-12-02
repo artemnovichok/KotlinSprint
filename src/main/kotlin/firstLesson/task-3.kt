@@ -2,21 +2,21 @@ package org.example.firstLesson
 
 fun main()
 {
-    val yearOfFlight: UShort = 1961u;
-    var hourData: UByte;
-    var minuteData: UByte;
+    val yearOfFlight: Short = 1961;
+    var hourData: Byte;
+    var minuteData: Byte;
 
     //take-off
-    hourData = 9u;
-    minuteData = 7u;
+    hourData = 9;
+    minuteData = 7;
 
     println(yearOfFlight);
     println(hourData);
     println(minuteData);
 
     //boarding
-    hourData = 10u;
-    minuteData = 55u;
+    hourData = 10;
+    minuteData = 55;
 
     print(hourData);
     print(':');
