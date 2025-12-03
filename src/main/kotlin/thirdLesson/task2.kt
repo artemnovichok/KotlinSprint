@@ -3,7 +3,7 @@ package org.example.thirdLesson
 fun main()
 {
     //like struct of user data from db
-    var age: Byte = 10
+    var age: Byte = 20
     var lastName: String = "Андреева"
     val firstName: String = "Татьяна"
     val surname: String = "Сергеевна"
