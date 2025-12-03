@@ -11,14 +11,19 @@ fun main()
     minuteData = 7;
 
     println(yearOfFlight);
-    println(hourData);
-    println(minuteData);
+    println(formatToTwoChars(hourData));
+    println(formatToTwoChars(minuteData));
 
     //boarding
     hourData = 10;
     minuteData = 55;
 
-    print(hourData);
+    print(formatToTwoChars(hourData));
     print(':');
-    print(minuteData);
+    print(formatToTwoChars(minuteData));
+}
+
+fun formatToTwoChars(number: Byte) : String
+{
+    return "%02d".format(number);
 }
