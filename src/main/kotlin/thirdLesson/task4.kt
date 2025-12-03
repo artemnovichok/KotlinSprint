@@ -9,7 +9,7 @@ fun main()
 
     //step2
     step++
-    //todo: logic of black chess
+    //todo: logic of black player
 
     //step3
     step++
