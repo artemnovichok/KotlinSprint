@@ -17,7 +17,7 @@ fun main()
     //...
 
     //day5
-    currentDay = 5
+    currentDay = 5 //only for test
     println(TRAINING_TABLE.replace("VALUE1", (currentDay % 2 != 0).toString())
         .replace("VALUE2", (currentDay % 2 == 0).toString()))
 }
