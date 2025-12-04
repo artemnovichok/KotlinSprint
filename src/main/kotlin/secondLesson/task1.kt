@@ -2,8 +2,13 @@ package org.example.secondLesson
 
 fun main()
 {
-    println("Ученик 1: " + "%.2f".format((3 + 4 + 3 + 5) / 4f))
-    println("Ученик 2: " + "%.2f".format((3 + 4 + 3 + 5) / 4f))
-    println("Ученик 3: " + "%.2f".format((3 + 4 + 3 + 5) / 4f))
-    println("Ученик 4: " + "%.2f".format((3 + 4 + 3 + 5) / 4f))
+    val a = 3
+    val b = 4
+    val c = 4
+    val d = 5
+
+    val sr = (a + b + c + d) / 4;
+
+    println(sr)
+
 }
